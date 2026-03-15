@@ -44,6 +44,9 @@ Because only 2 machines could perform the image loading step, each additional ra
 
 ---
 
+![Workstation utilization before and after VM deployment](assets/architecture_before_after.png)
+
+---
 ## 💡 Solution
 
 Deploy **Hyper-V virtual machines** on the existing thin client workstations, configured with the hardware profile required by the test image loading service.
@@ -77,6 +80,9 @@ Physical Workstation (thin client)
 | Hardware purchase required | Yes (estimated) | No | **$6,000 USD saved** |
 | Equipment utilization | 17% | 100% | **+83%** |
 
+![Image load time per rack — Before vs After](assets/time_comparison.png)
+
+---
 ### Process Time — After
 
 With all 12 machines capable of parallel image loading:
@@ -87,7 +93,6 @@ With all 12 machines capable of parallel image loading:
 
 Every rack now completes image loading in the same 40 minutes, regardless of queue position.
 
----
 
 ## 📊 Financial Impact
 
